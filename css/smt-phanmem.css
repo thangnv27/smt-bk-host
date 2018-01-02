@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 29, 2016, 1:40:25 AM
+    Author     : ThanhLuan
+*/
+
+.smt-top-page{
+ 
+    background: #fff;
+    border-bottom: solid #c72027 2px;
+    margin-bottom: 15px;
+}
+.smt-top-page ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+        
+}
+.smt-top-page ul li{
+    display: inline-block;
+ 
+}
+.smt-top-page h1.entry-title{
+    display: table;
+    float: left;
+        margin-right: 10px;
+}
+.smt_nav_phanmem {
+    margin: 1.6em 0;
+}
+.smt_nav_phanmem li a{
+    font-size: 1.5rem;
+    font-weight: bold;
+       padding: 10px 15px;
+}
+.smt_nav_phanmem li a:hover, .smt_nav_phanmem li a:active{
+    background: #c72027;
+    color: #fff;
+    border-radius: 4px;
+}
+.smt_nav_phanmem ul > li.current-menu-item > a{
+     background: #c72027;
+    color: #fff;
+    border-radius: 4px;
+}
+#smt-support-phanmem .btnContact{
+    font-weight: bold;
+    padding: 10px;
+    background: #c72027;
+    color: #fff;
+}
+#smt-support-phanmem .btnContact i{
+    margin-right: 10px;
+}
+#smt-support-phanmem .contact-right h2{
+    color: #c72027;
+    text-transform: uppercase;
+    font-size:1.9rem;
+    font-weight: bold;
+} 
+
+.smt_after_content > table.table.table-striped > td{
+    text-align: center;
+}
+.smt_after_content th, .smt_after_content td{
+    text-align: center;
+    font-weight: bold;
+vertical-align: middle !important;
+    line-height: 2;
+}
+.smt_after_content td span{
+    color: #F00;
+}
+.smt_after_content th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #009cde;
+    text-align: center;
+    color: #fff;
+        line-height: 2;
+            vertical-align: middle !important;
+      
+}
+.smt_after_content th:first-child{
+    background: none;
+    
+}
+.smt_after_content td:first-child{
+    background: #72ba14;
+    color: #fff;
+        vertical-align: middle;
+}
+.smt_custom_button{
+    background: #C72027;
+    color: #fff;
+    padding: 10px;
+    font-size: 13px;
+  
+    line-height: 2;
+}

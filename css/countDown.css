@@ -1,0 +1,217 @@
+/* line 5, countDown.scss */
+.vi_element.countdown .countdown_clock {
+  margin: 0 auto;
+  width: auto;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 320px;
+}
+/* line 10, countDown.scss */
+.vi_element.countdown .countdown_clock .countdown-container {
+  height: 130px;
+}
+/* line 13, countDown.scss */
+.vi_element.countdown .countdown_clock .time {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  height: 95px;
+  width: 65px;
+  -moz-perspective: 479px;
+  -webkit-perspective: 479px;
+  perspective: 479px;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  margin-right: 40px;
+}
+/* line 25, countDown.scss */
+.vi_element.countdown .countdown_clock .time:before {
+  content: "";
+  position: absolute;
+  top: 32px;
+  right: -25px;
+  font-size: 64px;
+  line-height: 0;
+  width: 8px;
+  height: 8px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+}
+/* line 37, countDown.scss */
+.vi_element.countdown .countdown_clock .time:after {
+  content: "";
+  position: absolute;
+  top: 58px;
+  right: -25px;
+  font-size: 64px;
+  line-height: 0;
+  width: 8px;
+  height: 8px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+}
+/* line 49, countDown.scss */
+.vi_element.countdown .countdown_clock .time:last-child {
+  margin-right: 0;
+}
+/* line 51, countDown.scss */
+.vi_element.countdown .countdown_clock .time:last-child:before, .vi_element.countdown .countdown_clock .time:last-child:after {
+  display: none;
+}
+/* line 56, countDown.scss */
+.vi_element.countdown .countdown_clock .count {
+  background: #f8f8f8;
+  color: #424242;
+  display: block;
+  font-family: "Arial";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 2.4em;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  top: 0;
+  width: 100%;
+  -moz-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -moz-transform-style: flat;
+  -webkit-transform-style: flat;
+  transform-style: flat;
+}
+/* line 72, countDown.scss */
+.vi_element.countdown .countdown_clock .count.top {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px;
+  border-radius: 5px 5px 0 0;
+  height: 50%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+/* line 81, countDown.scss */
+.vi_element.countdown .countdown_clock .count.top.next {
+  -moz-box-shadow: inset 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+/* line 85, countDown.scss */
+.vi_element.countdown .countdown_clock .count.bottom {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0));
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 5px 5px;
+  line-height: 0;
+  height: 50%;
+  top: 50%;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+}
+/* line 99, countDown.scss */
+.vi_element.countdown .countdown_clock .count.next.bottom {
+  -moz-transform: rotateX(90deg);
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  z-index: 2;
+  -moz-box-shadow: inset 0 -3px 10px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0 -3px 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 -3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+/* line 104, countDown.scss */
+.vi_element.countdown .countdown_clock .count.curr.top {
+  -moz-transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  z-index: 3;
+}
+/* line 109, countDown.scss */
+.vi_element.countdown .countdown_clock .label {
+  margin-top: 5px;
+  display: block;
+  position: absolute;
+  top: 95px;
+  width: 100%;
+  font-size: 14px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+/* line 121, countDown.scss */
+.vi_element.countdown .countdown_clock .flip .count.curr.top {
+  -moz-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  -moz-transform: rotateX(-90deg);
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+/* line 125, countDown.scss */
+.vi_element.countdown .countdown_clock .flip .count.next.bottom {
+  -moz-transition: all 250ms ease-in-out 250ms;
+  -o-transition: all 250ms ease-in-out 250ms;
+  -webkit-transition: all 250ms ease-in-out;
+  -webkit-transition-delay: 250ms;
+  transition: all 250ms ease-in-out 250ms;
+  -moz-transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+@media screen and (max-width: 48em) {
+  /* line 132, countDown.scss */
+  .vi_element.countdown .countdown_clock {
+    width: 100%;
+  }
+  /* line 134, countDown.scss */
+  .vi_element.countdown .countdown_clock .countdown-container {
+    height: 100px;
+  }
+  /* line 137, countDown.scss */
+  .vi_element.countdown .countdown_clock .time {
+    height: 70px;
+    width: 48px;
+  }
+  /* line 141, countDown.scss */
+  .vi_element.countdown .countdown_clock .count {
+    font-size: 1.5em;
+    line-height: 70px;
+  }
+  /* line 145, countDown.scss */
+  .vi_element.countdown .countdown_clock .label {
+    font-size: 0.8em;
+    top: 72px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 153, countDown.scss */
+  .vi_element.countdown .countdown_clock {
+    padding-bottom: 15px;
+  }
+  /* line 155, countDown.scss */
+  .vi_element.countdown .countdown_clock .time {
+    margin-right: 15px;
+  }
+}

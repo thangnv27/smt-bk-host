@@ -1,0 +1,672 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SMT BK Host\n"
+"POT-Creation-Date: 2016-04-29 16:39+0700\n"
+"PO-Revision-Date: 2016-04-29 16:43+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Không thấy trang này!!!"
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Không có nội dung tại địa điểm này. Có thể thử một trong các liên kết dưới "
+"đây hoặc tìm kiếm?"
+
+#: 404.php:33
+msgid "Most Used Categories"
+msgstr "Chuyên mục sử dụng nhiều nhất"
+
+#: 404.php:51
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Hãy thử tìm kiếm trong kho lưu trữ hàng tháng. %1$s"
+
+#: admin/smt-functions.php:11
+msgid "Footer 1"
+msgstr "Footer 1"
+
+#: admin/smt-functions.php:13 admin/smt-functions.php:23
+#: admin/smt-functions.php:32 admin/smt-functions.php:42 functions.php:111
+msgid "Add widgets here."
+msgstr "Thêm widget ở đây."
+
+#: admin/smt-functions.php:21
+msgid "Footer 2"
+msgstr "Footer 2"
+
+#: admin/smt-functions.php:30
+msgid "Footer 3"
+msgstr "Footer 3"
+
+#: admin/smt-functions.php:40
+msgid "Footer 4"
+msgstr "Footer 4"
+
+#: footer.php:57
+msgid "Copyright ©"
+msgstr "Copyright ©"
+
+#: footer.php:57
+msgid " BKHOST Corporation. All Rights Reserved"
+msgstr "BKHOST Corporation. Tất cả các quyền"
+
+#: footer.php:62
+msgid "Contact with us"
+msgstr "Liên hệ với chúng tôi"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "Chính "
+
+#: functions.php:49
+msgid "Top Left"
+msgstr "Trên cùng bên Trái"
+
+#: functions.php:50
+msgid "Top Right"
+msgstr "Trên cùng bên phải"
+
+#: functions.php:51
+msgid "Trang Phần Mềm"
+msgstr ""
+
+#: functions.php:109
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: header.php:34
+msgid "Skip to content"
+msgstr "Bỏ qua nội dung"
+
+#: header.php:73
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:90
+msgid "Enter Domain"
+msgstr "Nhập tên miền cần kiểm tra"
+
+#: header.php:93
+msgid "Check Domain"
+msgstr "Kiểm tra"
+
+#: header.php:99
+msgid "Domain agency of VNNIC"
+msgstr "Nhà đăng ký tên miền chính thức của VNNIC"
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Đăng vào %s"
+
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Đăng tại %1$s"
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Từ khóa: %1$s"
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Để lại một bình luận <span class=\"screen-reader-text\">trên%s</span>"
+
+#: inc/template-tags.php:72 template-parts/content-page.php:33
+#: template-parts/content-phanmem.php:34
+#, php-format
+msgid "Edit %s"
+msgstr "Sửa %s"
+
+#: page-chodatserver.php:35 page-domain.php:35 page-email.php:35
+#: page-hosting.php:35 page-server.php:35 page-ssl.php:35 page-vps.php:35
+#: template-parts/content-home.php:19 template-parts/content-page.php:22
+#: template-parts/content-phanmem.php:21 template-parts/content-pricing.php:38
+#: template-parts/content.php:39
+msgid "Pages:"
+msgstr "Trang:"
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Kết quả tìm kiếm cho: %s"
+
+#: template-parts/content-bao-tri.php:1
+msgid "Maintenance News"
+msgstr "Tin tức bảo trì"
+
+#: template-parts/content-brand.php:31 template-parts/content-services.php:47
+#: template-parts/content-support.php:65
+#: template-parts/content-testimonials.php:48
+msgid "Not Found"
+msgstr "Không tìm thấy"
+
+#: template-parts/content-chodatserver.php:20
+msgid "Localtion Viettel"
+msgstr "Chỗ đặt máy chủ Viettel"
+
+#: template-parts/content-chodatserver.php:21
+msgid "Localtion FPT"
+msgstr "Chỗ đặt máy chủ FPT"
+
+#: template-parts/content-chodatserver.php:22
+msgid "Localtion VNPT"
+msgstr "Chỗ đặt máy chủ VNPT"
+
+#: template-parts/content-chodatserver.php:23
+msgid "Localtion CMC"
+msgstr "Chỗ đặt máy chủ CMC"
+
+#: template-parts/content-chodatserver.php:67
+#: template-parts/content-chodatserver.php:197
+#: template-parts/content-chodatserver.php:324
+#: template-parts/content-chodatserver.php:452
+msgid "Rack Store:"
+msgstr "Không gian rack: "
+
+#: template-parts/content-chodatserver.php:71
+#: template-parts/content-chodatserver.php:201
+#: template-parts/content-chodatserver.php:328
+#: template-parts/content-chodatserver.php:456
+msgid "Power: "
+msgstr "Công suất:"
+
+#: template-parts/content-chodatserver.php:75
+#: template-parts/content-chodatserver.php:205
+#: template-parts/content-chodatserver.php:332
+#: template-parts/content-chodatserver.php:460
+msgid "Ip Address: "
+msgstr "Địa chỉ IP:"
+
+#: template-parts/content-chodatserver.php:79
+#: template-parts/content-chodatserver.php:209
+#: template-parts/content-chodatserver.php:336
+#: template-parts/content-chodatserver.php:464
+msgid "Datatransfer: "
+msgstr "Datatransfer: "
+
+#: template-parts/content-chodatserver.php:85
+#: template-parts/content-chodatserver.php:215
+#: template-parts/content-chodatserver.php:342
+#: template-parts/content-chodatserver.php:470
+msgid "Vietnam Bandwith: "
+msgstr "Băng thông trong nước: "
+
+#: template-parts/content-chodatserver.php:90
+#: template-parts/content-chodatserver.php:220
+#: template-parts/content-chodatserver.php:347
+#: template-parts/content-chodatserver.php:475
+msgid "International Bandwith: "
+msgstr "Băng thông quốc tế: "
+
+#: template-parts/content-chodatserver.php:95
+#: template-parts/content-chodatserver.php:225
+#: template-parts/content-chodatserver.php:352
+#: template-parts/content-chodatserver.php:480
+#: template-parts/content-server.php:87 template-parts/content-server.php:227
+#: template-parts/content-server.php:367
+msgid "Setup: "
+msgstr "Cài đặt: "
+
+#: template-parts/content-chodatserver.php:120
+#: template-parts/content-chodatserver.php:249
+#: template-parts/content-chodatserver.php:376
+#: template-parts/content-chodatserver.php:505
+#: template-parts/content-email.php:220 template-parts/content-email.php:341
+#: template-parts/content-server.php:119 template-parts/content-server.php:259
+#: template-parts/content-server.php:399 template-parts/content-vps.php:108
+#: template-parts/content-vps.php:227 template-parts/content-vps.php:345
+#: template-parts/content-vps.php:465
+msgid "6 Months x "
+msgstr "6 tháng x "
+
+#: template-parts/content-chodatserver.php:123
+#: template-parts/content-chodatserver.php:252
+#: template-parts/content-chodatserver.php:379
+#: template-parts/content-chodatserver.php:508
+#: template-parts/content-email.php:223 template-parts/content-email.php:344
+#: template-parts/content-server.php:122 template-parts/content-server.php:262
+#: template-parts/content-server.php:402 template-parts/content-vps.php:111
+#: template-parts/content-vps.php:230 template-parts/content-vps.php:348
+#: template-parts/content-vps.php:468
+msgid "12 Months x "
+msgstr "12 tháng x "
+
+#: template-parts/content-chodatserver.php:126
+#: template-parts/content-chodatserver.php:255
+#: template-parts/content-chodatserver.php:382
+#: template-parts/content-chodatserver.php:511
+#: template-parts/content-email.php:226 template-parts/content-email.php:347
+#: template-parts/content-server.php:125 template-parts/content-server.php:265
+#: template-parts/content-server.php:405 template-parts/content-vps.php:114
+#: template-parts/content-vps.php:233 template-parts/content-vps.php:351
+#: template-parts/content-vps.php:471
+msgid "24 Months x "
+msgstr "24 tháng x "
+
+#: template-parts/content-chodatserver.php:139
+#: template-parts/content-chodatserver.php:268
+#: template-parts/content-chodatserver.php:395
+#: template-parts/content-chodatserver.php:524
+#: template-parts/content-email.php:112 template-parts/content-email.php:236
+#: template-parts/content-email.php:357 template-parts/content-hosting.php:110
+#: template-parts/content-hosting.php:218
+#: template-parts/content-hosting.php:320
+#: template-parts/content-hosting.php:420
+#: template-parts/content-hosting.php:522
+#: template-parts/content-server.php:145 template-parts/content-server.php:285
+#: template-parts/content-server.php:425 template-parts/content-vps.php:125
+#: template-parts/content-vps.php:244 template-parts/content-vps.php:362
+#: template-parts/content-vps.php:482
+msgid "Select"
+msgstr "Đăng ký"
+
+#: template-parts/content-chodatserver.php:150
+#: template-parts/content-chodatserver.php:279
+#: template-parts/content-chodatserver.php:406
+#: template-parts/content-chodatserver.php:535
+#: template-parts/content-email.php:124 template-parts/content-email.php:248
+#: template-parts/content-email.php:369 template-parts/content-hosting.php:123
+#: template-parts/content-hosting.php:229
+#: template-parts/content-hosting.php:331
+#: template-parts/content-hosting.php:431
+#: template-parts/content-hosting.php:534
+#: template-parts/content-server.php:156 template-parts/content-server.php:297
+#: template-parts/content-server.php:436 template-parts/content-vps.php:136
+#: template-parts/content-vps.php:255 template-parts/content-vps.php:373
+#: template-parts/content-vps.php:493
+msgid "Không tìm thấy sản phẩm nào"
+msgstr "Không tìm thấy sản phẩm nào"
+
+#: template-parts/content-counter.php:19
+msgid "BKHOST and numbers"
+msgstr "Bkhost và những con số"
+
+#: template-parts/content-counter.php:23
+msgid "Years development"
+msgstr "Năm phát triển"
+
+#: template-parts/content-counter.php:27
+msgid "Loyal customers"
+msgstr "Khách hàng thường xuyên"
+
+#: template-parts/content-counter.php:31
+msgid "Agency"
+msgstr "Đại lý"
+
+#: template-parts/content-counter.php:35
+msgid "Member"
+msgstr "Thành viên"
+
+#: template-parts/content-email.php:16
+msgid "Email Googles Apps"
+msgstr "Email Googles Apps"
+
+#: template-parts/content-email.php:17
+msgid "Email Server riêng"
+msgstr "Email Server riêng"
+
+#: template-parts/content-email.php:18
+msgid "Email Doanh Nghiệp"
+msgstr "Email Doanh Nghiệp"
+
+#: template-parts/content-email.php:60
+msgid "Number of ussers:"
+msgstr "Số tài khoản: "
+
+#: template-parts/content-email.php:64 template-parts/content-email.php:177
+#: template-parts/content-email.php:298
+msgid "Storage:"
+msgstr "Lưu trữ:"
+
+#: template-parts/content-email.php:68
+msgid "Messages sent / date:"
+msgstr "Số tin gửi / ngày"
+
+#: template-parts/content-email.php:72
+msgid "Secured two layers:"
+msgstr "Bảo mật 2 lớp:"
+
+#: template-parts/content-email.php:76
+msgid "Cpanel management:"
+msgstr "Quản trị Cpanel:"
+
+#: template-parts/content-email.php:99
+msgid "Duration:"
+msgstr "Thời hạn: "
+
+#: template-parts/content-email.php:99
+msgid "Life time"
+msgstr "Trọn đời"
+
+#: template-parts/content-email.php:168 template-parts/content-email.php:289
+msgid " Number of users: "
+msgstr "Số tài khoản: "
+
+#: template-parts/content-email.php:172 template-parts/content-email.php:293
+msgid "Place: "
+msgstr "Nơi đặt : "
+
+#: template-parts/content-email.php:181 template-parts/content-email.php:302
+msgid "Manage emails in: "
+msgstr "Quản lý email vào: "
+
+#: template-parts/content-email.php:185 template-parts/content-email.php:306
+msgid "Manage emails out: "
+msgstr "Quản lý email ra: "
+
+#: template-parts/content-email.php:189 template-parts/content-email.php:310
+msgid "Check email: "
+msgstr "Kiểm tra email: "
+
+#: template-parts/content-email.php:193 template-parts/content-email.php:314
+msgid "Backup: "
+msgstr "Backup: "
+
+#: template-parts/content-email.php:197 template-parts/content-email.php:318
+msgid "Support: "
+msgstr "Hỗ trợ: "
+
+#: template-parts/content-hosting.php:16
+msgid "HOSTING LINUX"
+msgstr "HOSTING LINUX"
+
+#: template-parts/content-hosting.php:17
+msgid "HOSTING WINDOW"
+msgstr "HOSTING WINDOW"
+
+#: template-parts/content-hosting.php:18
+msgid "RESELLER SSD HOSTING"
+msgstr "RESELLER SSD HOSTING"
+
+#: template-parts/content-hosting.php:19
+msgid "SUPPER SSD HOSTING LINUX"
+msgstr "SUPPER SSD HOSTING LINUX"
+
+#: template-parts/content-hosting.php:20
+msgid "SUPPER SSD HOSTING WINDOW"
+msgstr "SUPPER SSD HOSTING WINDOW"
+
+#: template-parts/content-hosting.php:73
+#: template-parts/content-hosting.php:181
+#: template-parts/content-hosting.php:283
+#: template-parts/content-hosting.php:383
+#: template-parts/content-hosting.php:485
+msgid "Bandwith"
+msgstr "Băng thông"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Không tìm thấy"
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Bạn đã sẵn sàng để đăng bài viết đầu tiên của mình? <a href=\"%1$s\"> Bắt "
+"đầu tại đây </a>."
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Xin lỗi, không có kết quả bạn tìm kiếm. Xin vui lòng thử lại với những từ "
+"khóa khác."
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Có vẻ như chúng ta có thể &rsquo;re  tìm thấy những gì bạn về lĩnh lại tìm "
+"kiếm. Có lẽ tìm kiếm có thể giúp đỡ."
+
+#: template-parts/content-pricing.php:33 template-parts/content.php:34
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Xem tiếp %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-server.php:18
+msgid "Server DELL"
+msgstr "Server DELL"
+
+#: template-parts/content-server.php:19
+msgid "Server HP"
+msgstr "Server HP"
+
+#: template-parts/content-server.php:20
+msgid "Server IBM"
+msgstr "Server IBM"
+
+#: template-parts/content-server.php:68 template-parts/content-server.php:208
+#: template-parts/content-server.php:348
+msgid "CPU:"
+msgstr "CPU:"
+
+#: template-parts/content-server.php:72 template-parts/content-server.php:212
+#: template-parts/content-server.php:352 template-parts/content-vps.php:64
+#: template-parts/content-vps.php:182 template-parts/content-vps.php:300
+#: template-parts/content-vps.php:419
+msgid "RAM: "
+msgstr "RAM: "
+
+#: template-parts/content-server.php:76 template-parts/content-server.php:216
+#: template-parts/content-server.php:356 template-parts/content-vps.php:73
+#: template-parts/content-vps.php:191 template-parts/content-vps.php:309
+#: template-parts/content-vps.php:428
+msgid "HDD: "
+msgstr "HDD: "
+
+#: template-parts/content-server.php:80 template-parts/content-server.php:220
+#: template-parts/content-server.php:360 template-parts/content-vps.php:77
+#: template-parts/content-vps.php:195 template-parts/content-vps.php:313
+#: template-parts/content-vps.php:432
+msgid "Bandwidth: "
+msgstr "Băng thông: "
+
+#: template-parts/content-server.php:92 template-parts/content-server.php:232
+#: template-parts/content-server.php:372
+msgid "Datacenter:"
+msgstr "Trung tâm dữ liệu:"
+
+#: template-parts/content-server.php:116 template-parts/content-server.php:256
+#: template-parts/content-server.php:396 template-parts/content-vps.php:105
+#: template-parts/content-vps.php:224 template-parts/content-vps.php:342
+#: template-parts/content-vps.php:462
+msgid "3 Months x "
+msgstr ""
+
+#: template-parts/content-services.php:6
+msgid "My Services"
+msgstr "Dịch vụ của chúng tôi"
+
+#: template-parts/content-services.php:41
+msgid "Register"
+msgstr "Đăng ký"
+
+#: template-parts/content-support.php:16
+msgid "Our Consultants"
+msgstr "Tư vấn của chúng tôi"
+
+#: template-parts/content-support.php:17
+msgid "Always ready to support"
+msgstr "Luôn luôn sẵn sàng hỗ trợ"
+
+#: template-parts/content-testimonials.php:16
+msgid "What customers say about us ?"
+msgstr "Khách hàng nói gì về chúng tôi?"
+
+#: template-parts/content-tin-tuc.php:1
+msgid "News"
+msgstr "Tin tức"
+
+#: template-parts/content-vps.php:20
+msgid "VPS"
+msgstr "VPS"
+
+#: template-parts/content-vps.php:21
+msgid "CLOUD VPS"
+msgstr "CLOUD VPS"
+
+#: template-parts/content-vps.php:22
+msgid "CLOUD STORAGE"
+msgstr "CLOUD STORAGE"
+
+#: template-parts/content-vps.php:23
+msgid "CLOUD SERVER PRO "
+msgstr "CLOUD SERVER PRO "
+
+#: template-parts/content-vps.php:68 template-parts/content-vps.php:186
+#: template-parts/content-vps.php:304 template-parts/content-vps.php:423
+msgid "CPU: "
+msgstr "CPU: "
+
+#: template-parts/content-vps.php:81 template-parts/content-vps.php:199
+#: template-parts/content-vps.php:317 template-parts/content-vps.php:436
+msgid "Setup:"
+msgstr "Setup: "
+
+#: template-parts/content-vps.php:85 template-parts/content-vps.php:203
+#: template-parts/content-vps.php:321 template-parts/content-vps.php:440
+msgid "Software: "
+msgstr "Phần mềm:"
+
+#~ msgid ""
+#~ "Designed by <a href=\"http://www.luongthanhluan.com\" target=\"_blank"
+#~ "\">Lương Thành Luân</a> | Developer: <a href=\"http://www.luongthanhluan."
+#~ "com\" target=\"_blank\">Lương Thành Luân</a></p>"
+#~ msgstr ""
+#~ "Designed by <a href=\"http://www.luongthanhluan.com\" target=\"_blank"
+#~ "\">Lương Thành Luân</a> | Developer: <a href=\"http://www.luongthanhluan."
+#~ "com\" target=\"_blank\">Lương Thành Luân</a></p>"
+
+#~ msgid "Setup"
+#~ msgstr "Cài đặt"
+
+#~ msgid "Googles Apps Email"
+#~ msgstr "Email Google Apps"
+
+#~ msgid "Company Server Email"
+#~ msgstr "Email doanh nghiệp"
+
+#~ msgid "Private Server Email"
+#~ msgstr "Email Server riêng"
+
+#~ msgid "Account number"
+#~ msgstr "Số tài khoản"
+
+#~ msgid "Location servers:"
+#~ msgstr "Chỗ đặt máy chủ:"
+
+#~ msgid "Manage email to:"
+#~ msgstr "Quản lý Email đến:"
+
+#~ msgid "Manage email sent out:"
+#~ msgstr "Quản lý Email đã gửi:"
+
+#~ msgid "Check email:"
+#~ msgstr "Kiểm tra email:"
+
+#~ msgid "Backup:"
+#~ msgstr "Backup:"
+
+#~ msgid "Support:"
+#~ msgstr "Hỗ trợ:"
+
+#~ msgid "HOSTING"
+#~ msgstr "HOSTING"
+
+#~ msgid "Gateway local / International"
+#~ msgstr "Gateway local / International"
+
+#~ msgid "C1 VPS"
+#~ msgstr "VPS C1"
+
+#~ msgid "CMC VPS"
+#~ msgstr "VPS CMC"
+
+#~ msgid "FPT VPS"
+#~ msgstr "VPS FPT"
+
+#~ msgid "QSTC VPS "
+#~ msgstr "VPS QSTC"
+
+#~ msgid "GLOBAL VPS"
+#~ msgstr "VPS QUỐC TẾ"
+
+#~ msgid "VDC VPS"
+#~ msgstr "VPS VDC"
+
+#~ msgid "VIETTEL VPS"
+#~ msgstr "VPS VIETTEL"
+
+#~ msgid "VNPT VPS"
+#~ msgstr "VPS VNPT"
+
+#~ msgid "Bandwidth "
+#~ msgstr "Băng thông"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Thanh điều hướng bình luận"
+
+#~ msgid "Older Comments"
+#~ msgstr "BÌnh luận trước"
+
+#~ msgid "Newer Comments"
+#~ msgstr "Bình luận mới hơn"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Bình luận đã đóng"
+
+#~ msgctxt "post author"
+#~ msgid "by %s"
+#~ msgstr "bởi %s"
+
+#~ msgid "Domain Name Search Tool"
+#~ msgstr "Công cụ tìm kiếm tên miền"
+
+#~ msgid "life time"
+#~ msgstr "Trọn đời"
+
+#~ msgid "VPS C1"
+#~ msgstr "VPS C1"
+
+#~ msgid "VPS CMC"
+#~ msgstr "VPS CMC"
+
+#~ msgid "VPS QSTC "
+#~ msgstr "VPS QSTC "
+
+#~ msgid "VPS VIETTEL"
+#~ msgstr "VPS VIETTEL"
+
+#~ msgid "Bkhost Services"
+#~ msgstr "Dịch vụ của BKHOST"

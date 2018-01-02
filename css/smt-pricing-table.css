@@ -1,0 +1,357 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 19, 2016, 12:08:22 AM
+    Author     : ThanhLuan
+*/
+
+
+.smt-hosting-box{
+    width: 12.5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+ 
+     
+}
+.smt-option-price {
+       background: #fff;
+}
+#smt-pricing-table{
+    text-align: center;
+    margin-bottom: 15px;
+}
+#smt-pricing-table .top-option{
+    
+}
+#smt-pricing-table .top-option .packet-title{
+    float: left;
+    background-color: #aad5ce;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    vertical-align: middle;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+        padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#smt-pricing-table:hover .top-option .packet-title{
+    background-color: #dd806e;
+    color: #f4f4f4;
+}
+#smt-pricing-table .top-option .packet-title h3{
+   margin:0;
+    line-height: 1.5;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+#smt-pricing-table .top-option .packet-price{
+       padding-bottom: 10px;
+   padding-top: 10px;
+      width: 100%;
+    float: left;
+    background-color: #13a99d;
+    height: 60px;
+}
+#smt-pricing-table:hover .top-option .packet-price{
+
+    background-color: #c72027;
+}
+#smt-pricing-table .top-option .packet-price p{
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-top: 7px;
+    margin: 0;
+}
+#smt-pricing-table .top-option .packet-price small{
+        float: left;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.3rem
+}
+#smt-pricing-table .main-option p:first-child{
+  
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #000;
+}
+.smt-option-price {
+  border: solid 1px #ccc;
+}
+.main-option p{
+  border-bottom:  solid 1px #ccc;
+
+  margin: 0;
+        padding: 5px 10px;
+
+}
+.main-option span{
+    font-weight: bold;
+}
+.bot-option{
+    padding: 10px 0 0 0;
+}
+
+.bot-option img{
+    margin-bottom: 10px;
+}
+#smt-pricing-table .bot-option  .smt-link-dk{
+    font-weight: bold;
+    font-size: 1.3rem;
+    background: #13a99d;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+#smt-pricing-table .bot-option  .smt-link-dk a{
+    color: #fff;
+    
+}
+#smt-pricing-table:hover .bot-option  .smt-link-dk{
+    font-weight: bold;
+    font-size: 1.3rem;
+    background: #c72027;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+#smt-pricing-table:hover .bot-option  .smt-link-dk a{
+    color: #f7ff00;
+}
+
+
+.smt-option-price-list ul{
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+}
+#smt-pricing-table ul li{
+    font-weight: bold;
+    line-height: 2;
+}
+
+
+.smt-option-price-list ul li span{
+    color: #c72027;
+}
+
+#smt-pricing-table p span{
+    color: #c72027;
+}
+
+
+/* Tabs container */
+.r-tabs {
+	position: relative;
+	border-radius: 4px;
+
+}
+
+/* Tab element */
+.r-tabs .r-tabs-nav .r-tabs-tab {
+	position: relative;
+	background-color: #b3b3b3;
+        	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+/* Tab anchor */
+.r-tabs .r-tabs-nav .r-tabs-anchor {
+	display: inline-block;
+	padding: 10px 12px;
+	text-decoration: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+        	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+/* Disabled tab */
+.r-tabs .r-tabs-nav .r-tabs-state-disabled {
+	opacity: 0.5;
+}
+
+/* Active state tab anchor */
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+	color: #fff;
+	text-shadow: none;
+	background-color: #c72027;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+/* Tab panel */
+.r-tabs .r-tabs-panel {
+	background-color:  rgba(255, 255, 255, 0);
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+
+}
+
+/* Accordion anchor */
+.r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+	display: block;
+	padding: 10px;
+
+	background-color: #00c5ad;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	font-size: 14px;
+
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+/* Active accordion anchor */
+.r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
+	background-color: #fff;
+	color: #00c5ad;
+	text-shadow: none;
+}
+
+/* Disabled accordion button */
+.r-tabs .r-tabs-accordion-title.r-tabs-state-disabled {
+	opacity: 0.5;
+}
+
+/* Buttons */
+button {
+	display:inline-block;
+/*	margin-top: 10px;
+	margin-right: 10px;*/
+	padding: 10px 20px;
+	line-height: 100%;
+
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	vertical-align: middle;
+	font-weight: bold;
+	
+	border: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #00c5ad;
+	box-shadow: 0px 3px 0px 0px #00ab94;
+	
+	cursor: pointer;
+}
+
+/* Info bar */
+.info {
+	display:inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 10px 20px;
+	width: 300px;
+	line-height: 100%;
+
+	font-size: 14px;
+	color: #00c5ad;
+	border: 2px solid #00ab94;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #fff;
+	cursor: pointer;
+} 
+
+.r-tabs .r-tabs-nav {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+        border-bottom: solid 2px #fff;
+}
+
+.r-tabs .r-tabs-tab {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+}
+
+.r-tabs .r-tabs-panel {
+   
+    display: none;
+}
+
+.r-tabs .r-tabs-accordion-title {
+    display: none;
+}
+
+.r-tabs .r-tabs-panel.r-tabs-state-active {
+    display: block;
+}
+
+/* Accordion responsive breakpoint */
+@media only screen and (max-width: 768px) {
+    .r-tabs .r-tabs-nav {
+        display: none;
+    }
+
+    .r-tabs .r-tabs-accordion-title {
+        display: block;
+    }
+}
+
+#horizontalTab{
+    margin-bottom: 20px
+}
+
+.smt_after_content{
+    display: table;
+/*    padding-top: 20px;*/
+}
+#content-server .main-option p{
+    text-align: left;
+    padding: 6px 10px ;
+    font-weight: normal;
+    line-height: 1.5;
+}
+#content-server .main-option p:first-child{
+    font-size: 13px;
+    text-align: left;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: normal;
+}
+#content-server .main-option p span{
+    font-weight: bold;
+    color: #c72027;
+}
+
+/*VPS*/
+#smt-vps .main-option p{
+    padding: 5px 10px
+}
+#smt-vps .main-option p:first-child{
+    color: #000;
+    font-size: 1.5rem;
+}
+
+#smt-pricing-table .top-option #smt-vps .packet-title h3{
+    
+}
